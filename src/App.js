@@ -142,3 +142,5 @@ function calculateWinner(squares) {
   }
   return null;
 }
+
+export default withAuthenticator(App, true);
